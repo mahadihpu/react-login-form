@@ -9,11 +9,24 @@ import Login from "./Login";
 import Register from "./Register";
 
 const theme = createTheme({
-  pallete: {
+  palette: {
     primary: {
-      main: "#efefef",
-    },
+      main: "#1B52F4",
+    }
   },
+  typography: {
+    button: {
+      textTransform: "none",
+      fontSize: "16px",
+      fontFamily: "Poppins",
+      fontWeight: 400
+    },
+    h5: {
+      fontFamily: "Poppins",
+      fontSize: "36px",
+      fontWeight: 600
+    }
+  }
 });
 function App() {
   

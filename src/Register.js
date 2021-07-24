@@ -54,8 +54,7 @@ const Register = () => {
             Sign up Now!
           </Typography>
           <Button
-            className={classes.btn}
-            variant="contained"
+            className="btn btn-secondary"
             startIcon={<RotateRightIcon />}
           >
             Register with Google
@@ -83,7 +82,14 @@ const Register = () => {
               type="password"
               className={classes.form}
             ></OutlinedInput>
-            <Button className={classes.btn} variant="contained" color="secondary">
+            <InputLabel htmlFor="my-input" className={classes.spaceBetween}>
+              Re-Enter Password
+            </InputLabel>
+            <OutlinedInput
+              type="password"
+              className={classes.form}
+            ></OutlinedInput>
+            <Button className="btn" variant="contained" color="secondary">
               Sign up
             </Button>
           </form>

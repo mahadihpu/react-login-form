@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
 
 .forgot__pass{
   margin-top: 15px !important;
   color: #AAAAAA;
 }
-.btn{
-  width: 90%;
-  padding: 10px 0 !important;
-  margin-bottom: 30px !important;
-  margin-top: 30px !important;
+
+.btn {
+  position: relative !important;
+  width: 100% !important;
+  margin: 40px 0 !important;
+  padding: 20px 0 !important;
+  border-radius: 12px !important;
+  border: none !important;
+}
+.btn-secondary {
+  background-color: #F5F6F8 !important;
 }
